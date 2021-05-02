@@ -24,7 +24,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* header */}
-      <header className= "flex w-full p-5 justify-between text-sm text-gray-700 ">
+      <header className= "flex w-full p-5 justify-between text-sm text-gray-700">
         {/* right side */}
         <div className= "flex space-x-4 items-center">
         <p className= "link" >About</p>
@@ -44,7 +44,7 @@ export default function Home() {
         </div>
       </header>
       {/* body */}
-      <form className= "flex flex-col items-center mt-40 flex-grow  w-4/5">
+      <form className= "flex flex-col items-center mt-35 flex-grow w-4/5">
         <Image 
         src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
         width= {200} 
